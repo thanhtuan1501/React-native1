@@ -47,7 +47,7 @@ export default function TodoScreen({navigation}) {
             return (
               <TouchableOpacity
                 key={index}
-                onPress={index => deleteTask(index)}>
+                onPress={() => deleteTask(index)}>
                 <Task text={item}></Task>
               </TouchableOpacity>
             );
