@@ -18,7 +18,6 @@ const VoteRateScreen = ({navigation}) => {
         return (
             <View style={styles.starBar}>{
                 maxrating.map((item,index)=>{
-                    console.log(fillStar);
                     return(
                         <TouchableOpacity
                         style={{marginHorizontal:10}}
